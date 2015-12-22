@@ -13,7 +13,9 @@ public class Spawner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey("x")) 
+
+		//When X is pressed spawn a character and subtract cost from gold.
+		if (Input.GetKeyDown(KeyCode.X)) 
 		{
 			if(coins.playerCoins>=25)
 			{
