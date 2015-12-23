@@ -91,10 +91,10 @@ public class AzureUILeaderboard : MonoBehaviour
 	private AzureMobileServices azure;
 
 	[SerializeField]
-	public string AzureEndPoint = "https://deadlyfingers.azure-mobile.net/"; // Your Connection URL
+	public string AzureEndPoint = "https://tower-defence-leaderboard.azure-mobile.net/"; // Your Connection URL
 	
 	[SerializeField]
-	public string ApplicationKey = "NKnKzIEoPQpsQfMdqxTdQTvdMNaxHF20"; // Your API Key
+	public string ApplicationKey = "zDsvAcSdNostwYDAoRBevgPXdHqnRl55"; // Your API Key
 
 	// Table items
 	public List<Leaderboard> _leaderboardItems = new List<Leaderboard>();
